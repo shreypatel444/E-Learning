@@ -17,7 +17,7 @@ index.use(express.static(PathPublic));
 index.set("view engine", "hbs");
 
 index.get("/", (req, res) => {
-  res.render("Login");
+  res.render("index");
 });
 
 index.get("/index", (req, res) => {
